@@ -1,5 +1,5 @@
 {
-    "name": "IntelliDust/VarioNG", 
+    "name": "intelli-dust/vario-ng", 
     "version": "0.1.7", 
     "description": "VarioNG (VOLVO) REST API client for PHP", 
     "type": "library", 
