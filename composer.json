@@ -5,7 +5,7 @@
     "type": "library", 
     "keywords": ["REST", "api", "client", "curl", "JSON", "VarioNG", "VOLVO"], 
     "homepage": "https://github.com/IntelliDust/VarioNG", 
-    "license": "GPLv3", 
+    "license": "GPL-3.0-only", 
     "authors": [
         {
             "name": "Slavoj SANTA Hruska", 
