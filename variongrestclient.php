@@ -1,4 +1,5 @@
 <?php
+namespace \IntelliDust\VarioNGClient
 
 /**
  * VarioNG VOLVO REST Client

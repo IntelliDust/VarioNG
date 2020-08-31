@@ -1,6 +1,6 @@
 {
     "name": "intelli-dust/vario-ng", 
-    "version": "0.1.7", 
+    "version": "0.1.8", 
     "description": "VarioNG (VOLVO) REST API client for PHP", 
     "type": "library", 
     "keywords": ["REST", "api", "client", "curl", "JSON", "VarioNG", "VOLVO"], 
