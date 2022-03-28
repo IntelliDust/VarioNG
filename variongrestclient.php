@@ -68,6 +68,23 @@ class VarioNGClient {
     }
 
 
+
+    public function postSalesPart($salesPart){
+	$jr = $this->api->post("postSalesPart",
+	    json_encode($salesPart),
+	    array('Content-Type' => 'application/json','Authorization'=>$this->token)
+	);
+	$r=json_decode($jr->response);
+	if (!@$r->details[0]->rc){
+	    print_r($jr->response);
+	    print_r($r);
+	    throw new Exception("VarioNGClient: SalesPart fatal fail !!!");
+	}
+	if (@$r->details[0]->rc!=1){
+	    throw new Exception("VarioNGClient: SalesPart failed [".$r->details[0]->rc."]['".$r->details[0]->message."']");
+	}
+	return $r;
+    }
 }
 
 

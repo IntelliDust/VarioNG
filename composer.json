@@ -1,6 +1,6 @@
 {
     "name": "intelli-dust/vario-ng", 
-    "version": "0.1.9", 
+    "version": "0.1.10", 
     "description": "VarioNG (VOLVO) REST API client for PHP", 
     "type": "library", 
     "keywords": ["REST", "api", "client", "curl", "JSON", "VarioNG", "VOLVO"], 
@@ -10,7 +10,7 @@
         {
             "name": "Slavoj SANTA Hruska", 
             "role": "Developer", 
-            "email": "vyvoj@santa3d.sk"
+            "email": "info@santa3d.sk"
         }
     ],
     "support": {
